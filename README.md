@@ -2,7 +2,7 @@
 
 ## INTRODUCTION
 
-"DIGITAL VOTING sYSTEM" is a digital voting technique. In this system people who have citizenship of the country and whos age is above 18 years of age and any sec can give his\her vote digitaly without using ballot paper in polling stations.
+"DIGITAL VOTING SYSTEM" is a digital voting technique. In this system people who have citizenship of the country and whos age is above 18 years of age and any sec can give his\her vote digitaly without using ballot paper in polling stations.
 There is a database which is maintained in which all the names of voters whith complete information is stored.
 In "DIGITAL VOTING sYSTEM" a voter can use his\her voting rights digital without any defficulty. He\She has to be registered first for him/her to vote. Registration is mainly done by the system administratio for security reasons. THe system administrator registers the voters on a special site of the system visited by him only by simply filling a registration form to regidter voter. Citizens seeking redistration are epected to visit the electral body office or contact the system administrator to submit their details. After the validity of them being citizen of that specific country has been confirmed by the system administrator by comparing their details submited with those in existing database such as those as the registrar of persons, the citizen is then registered as a voter.
 After registration, the voter is assigned a secret VoterID with which he/she can use to log into the system during election period and enjoy services provides by the system such as voting. If invalid/wrong details are submitted, then the citizen is not registered to vote.
