@@ -1,19 +1,19 @@
 # SRS FOR DIGITAL VOTING SYSTEM
 
-## INTRODUCTION
+### INTRODUCTION
 
 "DIGITAL VOTING sYSTEM" is a digital voting technique. In this system people who have citizenship of the country and whos age is above 18 years of age and any sec can give his\her vote digitaly without using ballot paper in polling stations.
 There is a database which is maintained in which all the names of voters whith complete information is stored.
 In "DIGITAL VOTING sYSTEM" a voter can use his\her voting rights digital without any defficulty. He\She has to be registered first for him/her to vote. Registration is mainly done by the system administratio for security reasons. THe system administrator registers the voters on a special site of the system visited by him only by simply filling a registration form to regidter voter. Citizens seeking redistration are epected to visit the electral body office or contact the system administrator to submit their details. After the validity of them being citizen of that specific country has been confirmed by the system administrator by comparing their details submited with those in existing database such as those as the registrar of persons, the citizen is then registered as a voter.
 After registration, the voter is assigned a secret VoterID with which he/she can use to log into the system during election period and enjoy services provides by the system such as voting. If invalid/wrong details are submitted, then the citizen is not registered to vote.
 
-## PROBLEM STATEMENT
+### PROBLEM STATEMENT
 
 Voting information handled manually poses a number of challenges such as; during election time after voting, you can’t make any changes even if you voted for a wrong candidate that you never wanted. The use of paper work in handling some of these processes could lead to human error which cannot be corrected once doe it's over and it is also time consuming.
 
 The said problems can be solved by creating and designing a digital voting system which will allow the voter to make any changes before submitting and it’s faster.
 
-## OBJECTIVES
+### OBJECTIVES
 
 - Main objective
   1. Provision of improved voting service to the voters through fasr, timely and convenient voting.
@@ -30,13 +30,13 @@ The said problems can be solved by creating and designing a digital voting syste
 
   4. Validating the system to ensure that only legible voters are allowed to vote.
   
-## User of the system
+### User of the system
 
  1. Voters - This user will be able to lading page of the system as well as be able to vote for the candidates for each possition.
 
  2. System Admin - This user will be able to register the voters as well as check the votes being casted.
 
-## Fuctional Requirements
+### Fuctional Requirements
 
 THe system will have modules, which are user friendly that will enhance user experience. The modules are:
 
