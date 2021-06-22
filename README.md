@@ -22,13 +22,13 @@ The said problems can be solved by creating and designing a digital voting syste
 
 ## OBJECTIVES
 
-- Main objective
+### Main objective
   1. Provision of improved voting service to the voters through fasr, timely and convenient voting.
   2. Reduction of cost incurred by the Electrol Commission during voting time in paying the very many clerks employed for the sake of the success of the manual system.
   3. Check to ensure that the members who are registered are the oly one to vote. Cases of "Dead People" voting are also minimized.
   4. Digital voting system will require being very precise or cost cutting to produce an effective election management system.
 
-- Specific objectives
+### Specific objectives
   1. Reviewing the existing/ current voting process or approach in the country.
 
   2. Coming up with an automated voting system.
