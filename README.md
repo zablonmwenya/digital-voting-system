@@ -55,4 +55,5 @@ THe system will have modules, which are user friendly that will enhance user exp
   ![Untitled](https://user-images.githubusercontent.com/72855022/123102391-ad44e880-d43d-11eb-8f6b-2689208abb8b.png)
 3. Voting page
    - Provides the voter with the form with contestant detail for each position.
+   
   ![Frame 1](https://user-images.githubusercontent.com/72855022/123102932-33f9c580-d43e-11eb-8d66-16fbc3d83b90.png)
