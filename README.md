@@ -49,10 +49,10 @@ THe system will have modules, which are user friendly that will enhance user exp
 
 1. Admin Sign in
    - Provides the user with the option to sign in. This is for the administrator only.
-  [Design](https://www.figma.com/proto/WtbY1wOQemtmLqfkcoWwch/Untitled?node-id=2%3A0&scaling=min-zoom&page-id=0%3A1)
+  ![Untitled (1)](https://user-images.githubusercontent.com/72855022/123102462-bfbf2200-d43d-11eb-9c0c-18f7549032d0.png)
 2. Voter sign in
    - Provides the voter with the option to sign in. This is for the voter only.
-  [Design](https://www.figma.com/proto/locuTP8HVAQx6rAlHawgnH/Untitled?node-id=1%3A15&scaling=min-zoom&page-id=0%3A1)
+  ![Untitled](https://user-images.githubusercontent.com/72855022/123102391-ad44e880-d43d-11eb-8f6b-2689208abb8b.png)
 3. Voting page
    - Provides the voter with the form with contestant detail for each position.
-  [Design](https://www.figma.com/proto/FaKyOsvTfS4lJhAejJPPsb/Untitled?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1)
+  ![Frame 1](https://user-images.githubusercontent.com/72855022/123102932-33f9c580-d43e-11eb-8d66-16fbc3d83b90.png)
