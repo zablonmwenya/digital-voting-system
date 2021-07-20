@@ -77,7 +77,7 @@
 				
 
 
-				$sql= "INSERT INTO db_evoting.tbl_users VALUES(null,'".$name."','".$voterID."','".$voterPassword."','".$selection."',?,?,?,?,?);";
+				$sql= "INSERT INTO db_evoting.tbl_users VALUES(null,'".$name."','".$voterID."','".$voterPassword."','".$selection."');";
 					
 
 				if(mysqli_query($conn, $sql)){
@@ -85,7 +85,6 @@
 				}
 				else
 				{
-					echo "<img src='images/error.png' width='70' height='70'>";
 					echo "<h3 class='text-info specialHead text-center'><strong> SORRY! WE'VE SOME ISSUE..</strong></h3>";
 					echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
 				}
