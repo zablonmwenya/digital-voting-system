@@ -47,21 +47,20 @@
         <div class="col-sm-12" style="border:2px solid gray;">
           
           <div class="page-header">
-            <h2 class="specialHead">Choose Your Candidate.</h2>
-            <p class="normalFont">Prove Your Authencity of being correct voter.</p>
+            <p class="normalFont"><strong> Prove Your Authencity of being correct voter.</strong></p>
           </div>
           
-          <form action="saveVote.php" method="POST">
+          <form action="saveVoter.php" method="POST">
           <div class="form-group">
             <label>Voter's Name :</label><br>
             
-            <input type="text" name="voterName" pattern="[A-Za-z]{6,}" title="Enter Your Full Name" placeholder="Enter Your Full Name" class="form-control" required/><br>
+            <input type="text" name="voterName" pattern="[A-Za-z]" title="Enter Your Full Name" placeholder="Enter Your Full Name" class="form-control" required/><br>
 
             <label>Voter's Registered ID :</label><br>
-            <input type="number" name="voterID" placeholder="Enter Your ID" class="form-control"/><br>
+            <input type="number" name="voterID" placeholder="Enter Your Voter Uniquie ID" class="form-control" required><br>
 
             <label>Voter's Password. :</label><br>
-            <input id="id1" type="password" name="voterPassword" pattern="[0-9].{6,}" placeholder="Enter Your Voter Uniquie ID" class="form-control" required/><br>
+            <input id="id1" type="password" name="voterPassword"  placeholder="Enter Your Voter Uniquie password" class="form-control" required/><br>
             
             <h3 class="normalFont">Selet Any One of Them,</h3>
             <div class="radio">
