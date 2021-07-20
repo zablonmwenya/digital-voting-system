@@ -70,7 +70,7 @@
        $DB_HOST= "localhost";
        $DB_USER="root";
        $DB_PASSWORD="";
-       $DB_NAME="db_bsecevoting";
+       $DB_NAME="db_evoting";
 	
 
         $conn= @mysqli_connect($DB_HOST,$DB_USER,$DB_PASSWORD,$DB_NAME)
@@ -78,17 +78,15 @@
 				
 
 
-				$sql= "INSERT INTO db_bsecevoting.tbl_users VALUES(null,null,null,null,'".$selection."','".$selection2."','".$selection3."','".$selection4."','".$selection5."');";
+				$sql= "INSERT INTO db_evoting.tbl_users_vote VALUES(null,'".$selection."','".$selection2."','".$selection3."','".$selection4."','".$selection5."');";
 					
 
 				if(mysqli_query($conn, $sql)){
-					echo "<img src='images/success.png' width='70' height='70'>";
 					echo "<h3 class='text-info specialHead text-center'><strong> YOU'VE  SUCCESSFULLY   VOTED.</strong></h3>";
 					echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
 				}
 				else
 				{
-					echo "<img src='images/error.png' width='70' height='70'>";
 					echo "<h3 class='text-info specialHead text-center'><strong> SORRY! WE'VE SOME ISSUE..</strong></h3>";
 					echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
 				}
