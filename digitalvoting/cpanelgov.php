@@ -36,9 +36,9 @@
           <ul class="nav navbar-nav">
             <li><a href="cpanelpm.php"><span class="subFont"><strong>Prime-minister Panel</strong></span></a></li>
             <li><a href="cpanel.php"><span class="subFont"><strong>Presidents Panel.</strong></span></a></li>
-            <li><a href="cpanelsen.php"><span class="subFont"><strong>Senetor Panel.</strong></span></a></li>
+            <li><a href="cpanelsen.php"><span class="subFont"><strong>Senator Panel.</strong></span></a></li>
             <li><a href="cpanelmp.php"><span class="subFont"><strong>Member of Parliament Panel.</strong></span></a></li>
-            <li><a href="voterspage.html"><span class="subFont"><strong>Voters</strong></span></a></li>
+           <!-- <li><a href="voterspage.html"><span class="subFont"><strong>Voters</strong></span></a></li>-->
           
           </ul>
           
@@ -78,14 +78,14 @@
               {
 
                 //Avery Mila
-                $sql ="SELECT * FROM tbl_users WHERE voted_for='AM'";
+                $sql ="SELECT * FROM tbl_users_vote WHERE voted_for_governor='AM'";
                 $result= mysqli_query($conn, $sql);
 
                 if(mysqli_num_rows($result)>0)
                 {
                   while($row= mysqli_fetch_assoc($result))
                   {
-                    if($row['voted_for'])
+                    if($row['voted_for_governor'])
                       $AM++;
                   }
 
@@ -102,14 +102,14 @@
                 }
 
                 // Madison Layla
-                $sql ="SELECT * FROM tbl_users WHERE voted_for='ML'";
+                $sql ="SELECT * FROM tbl_users_vote WHERE voted_for_governor='ML'";
                 $result= mysqli_query($conn, $sql);
 
                 if(mysqli_num_rows($result)>0)
                 {
                   while($row= mysqli_fetch_assoc($result))
                   {
-                    if($row['voted_for'])
+                    if($row['voted_for_governor'])
                       $ML++;
                   }
 
@@ -127,14 +127,14 @@
                 }
 
                 // Chloe Grace
-                $sql ="SELECT * FROM tbl_users WHERE voted_for='CG'";
+                $sql ="SELECT * FROM tbl_users_vote WHERE voted_for_governor='CG'";
                 $result= mysqli_query($conn, $sql);
 
                 if(mysqli_num_rows($result)>0)
                 {
                   while($row= mysqli_fetch_assoc($result))
                   {
-                    if($row['voted_for'])
+                    if($row['voted_for_governor'])
                       $CG++;
                   }
 
@@ -152,14 +152,14 @@
                 }
 
                 // Hazel Zoey
-                $sql ="SELECT * FROM tbl_users WHERE voted_for='HZ'";
+                $sql ="SELECT * FROM tbl_users_vote WHERE voted_for_governor='HZ'";
                 $result= mysqli_query($conn, $sql);
 
                 if(mysqli_num_rows($result)>0)
                 {
                   while($row= mysqli_fetch_assoc($result))
                   {
-                    if($row['voted_for'])
+                    if($row['voted_for_governor'])
                       $HZ++;
                   }
 
@@ -177,14 +177,14 @@
                 }
                 
                  //Lely Aurora
-                 $sql ="SELECT * FROM tbl_users WHERE voted_for='LA'";
+                 $sql ="SELECT * FROM tbl_users_vote WHERE voted_for_governor='LA'";
                  $result= mysqli_query($conn, $sql);
  
                  if(mysqli_num_rows($result)>0)
                  {
                    while($row= mysqli_fetch_assoc($result))
                    {
-                     if($row['voted_for'])
+                     if($row['voted_for_governor'])
                        $LA++;
                    }
  
@@ -201,14 +201,14 @@
                  }
  
                  // Hannah Emilia
-                 $sql ="SELECT * FROM tbl_users WHERE voted_for='HE'";
+                 $sql ="SELECT * FROM tbl_users_vote WHERE voted_for_governor='HE'";
                  $result= mysqli_query($conn, $sql);
  
                  if(mysqli_num_rows($result)>0)
                  {
                    while($row= mysqli_fetch_assoc($result))
                    {
-                     if($row['voted_for'])
+                     if($row['voted_for_governor'])
                        $HE++;
                    }
  
@@ -226,14 +226,14 @@
                  }
  
                  // Everly Isla
-                 $sql ="SELECT * FROM tbl_users WHERE voted_for='EI'";
+                 $sql ="SELECT * FROM tbl_users_vote WHERE voted_for_governor='EI'";
                  $result= mysqli_query($conn, $sql);
  
                  if(mysqli_num_rows($result)>0)
                  {
                    while($row= mysqli_fetch_assoc($result))
                    {
-                     if($row['voted_for'])
+                     if($row['voted_for_governor'])
                        $EI++;
                    }
  
@@ -255,14 +255,14 @@
                 $total=0;
 
                 // Total
-                $sql ="SELECT * FROM tbl_users";
+                $sql ="SELECT * FROM tbl_users_vote";
                 $result= mysqli_query($conn, $sql);
 
                 if(mysqli_num_rows($result)>0)
                 {
                   while($row= mysqli_fetch_assoc($result))
                   {
-                    if($row['voted_for'])
+                    if($row['voted_for_governor'])
                       $total++;
                   }
 
