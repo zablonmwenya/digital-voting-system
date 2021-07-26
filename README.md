@@ -55,9 +55,10 @@ Tee system will have modules, which are user friendly that will enhance user exp
   ![Screenshot (18)](https://user-images.githubusercontent.com/72855022/126981946-8ce66b51-6a9a-4d24-865d-c65fad06c24d.png)
 3. Voting page
    - Provides the voter with the form with contestant detail for each position.![Screenshot (21)](https://user-images.githubusercontent.com/72855022/126982133-018f76c8-6ab6-4f31-bfe2-b3a8c0e77a89.png)
-4. Feedback panel
-   - Provides feedback information from voters,
-   ![Screenshot (19)](https://user-images.githubusercontent.com/72855022/126982279-94ebb740-ba64-40d0-955f-fe7c381b3ae9.png)
+4. Feedback /Contuct us page
+   - Provides form for voters to contuct the admin or sent in their feedback about the system
+   ![image](https://user-images.githubusercontent.com/72855022/127014862-0c47f8a8-9c57-47de-95b2-eac73ab4b2f4.png)
+
    
 Database Design
    Admins Table
