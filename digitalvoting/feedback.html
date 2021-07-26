@@ -35,6 +35,7 @@
           </div>
   
           <div class="collapse navbar-collapse" id="example-nav-collapse">
+            <!--<li><a href="Contact.html"><span class="subFont"><strong>Contact Us</strong></span></a></li>-->
             <span class="normalFont"><a href="admin.html" class="btn btn-success navbar-right navbar-btn"><strong>Admin Panel</strong></a></span>
           </div>
   
@@ -44,17 +45,26 @@
 
     <div class="container" style="padding:100px;">
       <div class="row">
-        <h2 class="specialHead">Feedback Form</h2>
+        <center><h2 class="specialHead">Contuct Us</h2>
+            <p class="normalFont"> If You have any suggestion or complain regarding our voting system. We'll welcome your suggestion,
+            </p>
+          </center>
         <div class="col-sm-12" style="border:2px solid gray;">
           
-          <div class="page-header">
-            <p class="normalFont"><strong> Please help us to serve you better by taking a couple of minutes.</strong></p>
-          </div>
+          
           
           <form action="feedback.php" method="POST">
           <div class="form-group">
-            <h4 class="normalFont">How satisfied were you with our Service?,</h4>
-            <div class="radio">
+            
+
+              <h4>If you have specific feedback, please write to us...</h4>
+              <input type="text" placeholder="Your Name" name="name" required /><br> <br>
+			        <input type="email" placeholder="Your Email" name="email" required/><br><br>
+			        <input type="text" placeholder="Your Number" name="num" required /><br><br>
+			        <textarea placeholder="Additional comments" class="form-control" name="comments" required=""></textarea><br><br>
+			        
+              <h4 class="normalFont">How satisfied were you with our Service?,</h4>
+            <div class="radio" required>
               <label for="excellent">
                 <input type="radio" name="view" value="excellent" id="excellent"> <strong>Excellent</strong>
               </label><br>
@@ -70,20 +80,14 @@
               <label for="poor">
                 <input type="radio" name="view" value="poor" id="poor"> <strong>Poor</strong>
               </label><br>
-              <br>
-
-              <h4>If you have specific feedback, please write to us...</h4>
-			        <textarea placeholder="Additional comments" class="form-control" name="comments" required=""></textarea><br><br>
-			        <input type="text" placeholder="Your Name" name="name" required />
-			        <input type="email" placeholder="Your Email" name="email" required/>
-			        <input type="text" placeholder="Your Number" name="num" required />
-              <hr>
+              <br><hr>
               <button type="submit" name="submit" class="btn btn-primary"><strong>Submit Feedback</strong></button>
             </div>
           </div>
           </form>
 
         </div>
+        
       </div>
     </div>
   </div>
