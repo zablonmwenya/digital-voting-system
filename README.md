@@ -90,7 +90,7 @@ Tee system will have modules, which are user friendly that will enhance user exp
   |voted_for_senetor      |tinytext            |256     |
   |voted_for_mp           |tinytext            |256     |
   
-   ###Feedback Table
+   Feedback Table
    
   |Field name  | Data Type          | Length |
   |------------|--------------------|--------|
