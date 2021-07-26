@@ -45,15 +45,81 @@ The said problems can be solved by creating and designing a digital voting syste
 
 ## Fuctional Requirements
 
-THe system will have modules, which are user friendly that will enhance user experience. The modules are:
+Tee system will have modules, which are user friendly that will enhance user experience. The modules are:
 
 1. Admin Sign in
    - Provides the user with the option to sign in. This is for the administrator only.
-  ![Untitled (1)](https://user-images.githubusercontent.com/72855022/123102462-bfbf2200-d43d-11eb-9c0c-18f7549032d0.png)
+  ![Screenshot (17)](https://user-images.githubusercontent.com/72855022/126981872-c1897b6e-bc4b-4b76-b800-1c46f5fddde2.png)
 2. Voter sign in
    - Provides the voter with the option to sign in. This is for the voter only.
-  ![Untitled](https://user-images.githubusercontent.com/72855022/123102391-ad44e880-d43d-11eb-8f6b-2689208abb8b.png)
+  ![Screenshot (18)](https://user-images.githubusercontent.com/72855022/126981946-8ce66b51-6a9a-4d24-865d-c65fad06c24d.png)
 3. Voting page
-   - Provides the voter with the form with contestant detail for each position.
+   - Provides the voter with the form with contestant detail for each position.![Screenshot (21)](https://user-images.githubusercontent.com/72855022/126982133-018f76c8-6ab6-4f31-bfe2-b3a8c0e77a89.png)
+4. Feedback panel
+   - Provides feedback information from voters,
+   ![Screenshot (19)](https://user-images.githubusercontent.com/72855022/126982279-94ebb740-ba64-40d0-955f-fe7c381b3ae9.png)
    
-    ![Frame 1](https://user-images.githubusercontent.com/72855022/123102932-33f9c580-d43e-11eb-8d66-16fbc3d83b90.png)
+   ##Database Design
+   ###Admins Table
+  | Field name   | Data Type          | Length |
+  |--------------|--------------------|--------|
+  | id           |bigint unsigned(PK) | 20     |
+  |--------------|--------------------|--------|
+  |admin_username|tinytext            |256     |
+  |--------------|--------------------|--------|
+  |admin_password|tinytext            |256     |
+  |--------------|--------------------|--------|
+  |time_stamp    |datetime            |1       |
+  |--------------|--------------------|--------|
+   
+   ###Voters Table
+   
+  | Field name   | Data Type          | Length |
+  |--------------|--------------------|--------|
+  | id           |bigint unsigned(PK) | 20     |
+  |--------------|--------------------|--------|
+  |full_name     |tinytext            |256     |
+  |--------------|--------------------|--------|
+  |voter_id      |int                 |10      |
+  |--------------|--------------------|--------|
+  |voter_password|tinytext            | 256    |
+  |--------------|--------------------|--------|
+  |voter_gender  |tinytext            |256     |
+  |--------------|--------------------|--------|
+  
+   ###Votes Table
+   
+  |Field name             | Data Type          | Length |
+  |-----------------------|--------------------|--------|
+  | id                    |bigint unsigned(PK) | 20     |
+  |-----------------------|--------------------|--------|
+  |voted_for_president    |tinytext            |256     |
+  |-----------------------|--------------------|--------|
+  |voted_for_primeminister|tinytext            |256     |
+  |-----------------------|--------------------|--------|
+  |voted_for_governor     |tinytext            | 256    |
+  |-----------------------|--------------------|--------|
+  |voted_for_senetor      |tinytext            |256     |
+  |-----------------------|--------------------|--------|
+  |voted_for_mp           |tinytext            |256     |
+  |-----------------------|--------------------|--------|
+  
+   ###Feedback Table
+   
+  |Field name  | Data Type          | Length |
+  |------------|--------------------|--------|
+  | id         |bigint unsigned(PK) | 20     |
+  |------------|--------------------|--------|
+  |name        |tinytext            |256     |
+  |------------|--------------------|--------|
+  |	email      |tinytext            |256     |
+  |------------|--------------------|--------|
+  |phone       |int                 | 10     |
+  |----------- |--------------------|--------|
+  |	feedback   |tinytext            |256     |
+  |------------|--------------------|--------|
+  |suggestions |tinytext            |256     |
+  |----------- |--------------------|--------|
+   
+   
+   
