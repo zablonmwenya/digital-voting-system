@@ -59,7 +59,7 @@ Tee system will have modules, which are user friendly that will enhance user exp
    - Provides feedback information from voters,
    ![Screenshot (19)](https://user-images.githubusercontent.com/72855022/126982279-94ebb740-ba64-40d0-955f-fe7c381b3ae9.png)
    
-##Database Design
+Database Design
    Admins Table
    
   | Field name   | Data Type          | Length |
