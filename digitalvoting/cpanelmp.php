@@ -38,7 +38,8 @@
             <li><a href="cpanelgov.php"><span class="subFont"><strong>Governor Panel.</strong></span></a></li>
             <li><a href="cpanelsen.php"><span class="subFont"><strong>Senator Panel.</strong></span></a></li>
             <li><a href="cpanel.php"><span class="subFont"><strong>Presidents Panel.</strong></span></a></li>
-            <!--<li><a href="voterspage.html"><span class="subFont"><strong>Voters</strong></span></a></li>-->          
+            <li><a href="feedbackresults.php"><span class="subFont"><strong>Feedback.</strong></span></a></li> 
+            <li><a href="votes.php"><span class="subFont"><strong>Voters.</strong></span></a></li>       
           </ul>
           
           
