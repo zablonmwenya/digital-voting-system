@@ -109,17 +109,12 @@ Tee system will have modules, which are user friendly that will enhance user exp
   |Field name  | Data Type          | Length |
   |------------|--------------------|--------|
   | id         |bigint unsigned(PK) | 20     |
-  |------------|--------------------|--------|
   |name        |tinytext            |256     |
-  |------------|--------------------|--------|
   |	email      |tinytext            |256     |
-  |------------|--------------------|--------|
   |phone       |int                 | 10     |
-  |----------- |--------------------|--------|
   |	feedback   |tinytext            |256     |
-  |------------|--------------------|--------|
   |suggestions |tinytext            |256     |
-  |----------- |--------------------|--------|
+  
    
    
    
