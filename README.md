@@ -60,49 +60,35 @@ Tee system will have modules, which are user friendly that will enhance user exp
    ![Screenshot (19)](https://user-images.githubusercontent.com/72855022/126982279-94ebb740-ba64-40d0-955f-fe7c381b3ae9.png)
    
    ##Database Design
-   ###Admins Table
+   Admins Table
+   
   | Field name   | Data Type          | Length |
   |--------------|--------------------|--------|
   | id           |bigint unsigned(PK) | 20     |
-  |--------------|--------------------|--------|
   |admin_username|tinytext            |256     |
-  |--------------|--------------------|--------|
   |admin_password|tinytext            |256     |
-  |--------------|--------------------|--------|
   |time_stamp    |datetime            |1       |
-  |--------------|--------------------|--------|
    
-   ###Voters Table
+   Voters Table
    
   | Field name   | Data Type          | Length |
   |--------------|--------------------|--------|
   | id           |bigint unsigned(PK) | 20     |
-  |--------------|--------------------|--------|
   |full_name     |tinytext            |256     |
-  |--------------|--------------------|--------|
   |voter_id      |int                 |10      |
-  |--------------|--------------------|--------|
   |voter_password|tinytext            | 256    |
-  |--------------|--------------------|--------|
   |voter_gender  |tinytext            |256     |
-  |--------------|--------------------|--------|
   
-   ###Votes Table
+   Votes Table
    
   |Field name             | Data Type          | Length |
   |-----------------------|--------------------|--------|
   | id                    |bigint unsigned(PK) | 20     |
-  |-----------------------|--------------------|--------|
   |voted_for_president    |tinytext            |256     |
-  |-----------------------|--------------------|--------|
   |voted_for_primeminister|tinytext            |256     |
-  |-----------------------|--------------------|--------|
   |voted_for_governor     |tinytext            | 256    |
-  |-----------------------|--------------------|--------|
   |voted_for_senetor      |tinytext            |256     |
-  |-----------------------|--------------------|--------|
   |voted_for_mp           |tinytext            |256     |
-  |-----------------------|--------------------|--------|
   
    ###Feedback Table
    
