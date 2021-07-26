@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 22, 2021 at 11:08 AM
+-- Generation Time: Jul 26, 2021 at 01:14 PM
 -- Server version: 10.4.18-MariaDB
 -- PHP Version: 8.0.3
 
@@ -20,6 +20,21 @@ SET time_zone = "+00:00";
 --
 -- Database: `db_evoting`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `poll`
+--
+
+CREATE TABLE `poll` (
+  `id` bigint(20) UNSIGNED NOT NULL,
+  `name` tinytext NOT NULL,
+  `email` tinytext NOT NULL,
+  `phone` int(11) NOT NULL,
+  `feedback` tinytext NOT NULL,
+  `suggestions` tinytext NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -52,19 +67,8 @@ CREATE TABLE `tbl_users` (
   `full_name` varchar(32) NOT NULL,
   `voter_id` int(10) NOT NULL,
   `voter_password` varchar(10) NOT NULL,
-  `voted_gender` varchar(32) NOT NULL
+  `voter_gender` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `tbl_users`
---
-
-INSERT INTO `tbl_users` (`id`, `full_name`, `voter_id`, `voter_password`, `voted_gender`) VALUES
-(18, 'Zablon', 556655, '123qwe5r', 'Male'),
-(19, 'ianmoon', 25257727, '1123qwse5', 'Male'),
-(20, 'wynead', 77887, '345wer5', 'Male'),
-(21, 'zzxxbn', 12345, 'gghhjuty', 'Female'),
-(22, 'Blackshadow', 998877, 'asdfgh', 'Male');
 
 -- --------------------------------------------------------
 
@@ -82,17 +86,14 @@ CREATE TABLE `tbl_users_vote` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Dumping data for table `tbl_users_vote`
---
-
-INSERT INTO `tbl_users_vote` (`id`, `voted_for_president`, `voted_for_primeminister`, `voted_for_governor`, `voted_for_senetor`, `voted_for_mp`) VALUES
-(3, 'BJ', 'HA', 'LA', 'AE', 'SA'),
-(4, 'SR', 'VR', 'CG', 'AE', 'SD'),
-(5, 'JW', 'GS', 'CG', 'LP', 'MA');
-
---
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `poll`
+--
+ALTER TABLE `poll`
+  ADD UNIQUE KEY `id` (`id`);
 
 --
 -- Indexes for table `tbl_admin`
@@ -116,6 +117,12 @@ ALTER TABLE `tbl_users_vote`
 --
 -- AUTO_INCREMENT for dumped tables
 --
+
+--
+-- AUTO_INCREMENT for table `poll`
+--
+ALTER TABLE `poll`
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `tbl_admin`
