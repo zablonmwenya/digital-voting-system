@@ -43,7 +43,7 @@
           </ul>
           
           
-          <span class="normalFont"><a href="index.php" class="btn btn-success navbar-right navbar-btn"><strong>Sign Out</strong></a></span></button>
+          <span class="normalFont"><a href="index.html" class="btn btn-success navbar-right navbar-btn"><strong>Sign Out</strong></a></span></button>
         </div>
 
       </div> <!-- end of container -->
