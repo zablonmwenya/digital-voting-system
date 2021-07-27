@@ -31,12 +31,12 @@
           </button>
           <div class="navbar-header">
             
-            <a href="index.html" class="navbar-brand headerFont text-lg"><strong>BSEC eVoting</strong></a>
+            <a href="index.php" class="navbar-brand headerFont text-lg"><strong>BSEC eVoting</strong></a>
           </div>
   
           <div class="collapse navbar-collapse" id="example-nav-collapse">
-            <!--<li><a href="Contact.html"><span class="subFont"><strong>Contact Us</strong></span></a></li>-->
-            <span class="normalFont"><a href="admin.html" class="btn btn-success navbar-right navbar-btn"><strong>Admin Panel</strong></a></span>
+            <!--<li><a href="Contact.php"><span class="subFont"><strong>Contact Us</strong></span></a></li>-->
+            <span class="normalFont"><a href="admin.php" class="btn btn-success navbar-right navbar-btn"><strong>Admin Panel</strong></a></span>
           </div>
   
         </div> 
