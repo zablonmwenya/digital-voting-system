@@ -31,11 +31,11 @@
         </button>
         <div class="navbar-header">
           
-          <a href="index.php" class="navbar-brand headerFont text-lg"><strong>BSEC eVoting</strong></a>
+          <a href="index.html" class="navbar-brand headerFont text-lg"><strong>BSEC eVoting</strong></a>
         </div>
 
         <div class="collapse navbar-collapse" id="example-nav-collapse">
-          <span class="normalFont"><a href="admin.php" class="btn btn-success navbar-right navbar-btn"><strong>Admin Panel</strong></a></span>
+          <span class="normalFont"><a href="admin.html" class="btn btn-success navbar-right navbar-btn"><strong>Admin Panel</strong></a></span>
         </div>
 
       </div> 
@@ -83,12 +83,12 @@
 
 				if(mysqli_query($conn, $sql)){
 					echo "<h3 class='text-info specialHead text-center'><strong> YOU'VE  SUCCESSFULLY   VOTED.</strong></h3>";
-					echo "<a href='index.php' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
+					echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
 				}
 				else
 				{
 					echo "<h3 class='text-info specialHead text-center'><strong> SORRY! WE'VE SOME ISSUE..</strong></h3>";
-					echo "<a href='index.php' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
+					echo "<a href='index.html' class='btn btn-primary'> <span class='glyphicon glyphicon-ok'></span> <strong> Finish</strong> </a>";
 				}
 
 				
