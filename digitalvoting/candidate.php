@@ -29,11 +29,11 @@
           <span class="icon-bar"></span>
         </button>
         <div class="navbar-header">
-          <a href="candidate.html" class="navbar-brand headerFont text-lg"><strong>BSEC eVoting</strong></a>
+          <a href="candidate.php" class="navbar-brand headerFont text-lg"><strong>BSEC eVoting</strong></a>
         </div>
 
         <div class="collapse navbar-collapse" id="example-nav-collapse">
-          <span class="normalFont"><a href="admin.html" class="btn btn-success navbar-right navbar-btn"><strong>Admin Panel</strong></a></span>
+          <span class="normalFont"><a href="admin.php" class="btn btn-success navbar-right navbar-btn"><strong>Admin Panel</strong></a></span>
         </div>
       </div>
      </nav>
