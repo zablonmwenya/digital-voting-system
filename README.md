@@ -9,16 +9,14 @@
 
 ## INTRODUCTION
 
-"DIGITAL VOTING sYSTEM" is a digital voting technique. In this system people who have citizenship of the country and whos age is above 18 years of age and any sec can give his\her vote digitaly without using ballot paper in polling stations.
-There is a database which is maintained in which all the names of voters whith complete information is stored.
-In "DIGITAL VOTING sYSTEM" a voter can use his\her voting rights digital without any defficulty. He\She has to be registered first for him/her to vote. Registration is mainly done by the system administratio for security reasons. THe system administrator registers the voters on a special site of the system visited by him only by simply filling a registration form to regidter voter. Citizens seeking redistration are epected to visit the electral body office or contact the system administrator to submit their details. After the validity of them being citizen of that specific country has been confirmed by the system administrator by comparing their details submited with those in existing database such as those as the registrar of persons, the citizen is then registered as a voter.
-After registration, the voter is assigned a secret VoterID with which he/she can use to log into the system during election period and enjoy services provides by the system such as voting. If invalid/wrong details are submitted, then the citizen is not registered to vote.
+“DIGITAL VOTING SYSTEM” is a digital voting technique. In this system people who have citizenship of the country and whose age is above 18 years of age and any sex can give his or her vote digitally without using ballot paper in polling station. There is a database which is maintained in which all names of voters with complete information is stored. In digital voting system, a voter can use his or her voting rights digital without any difficulty. He\she has to be registered first for him to vote. Registration is mainly done by the system administration for security reasons. Citizens seeking registration are expected to visit the electoral body office to submit their details. After the validity of them being citizen of that specific country has been confirmed by the system administrator by comparing their details submitted with those in existing database such as those at the registrar of people, the citizen is then registered as voter. After registration, the voter gets a card containing details which he/she will use to log in the system during election period. If invalid/wrong details are submitted by the citizen during registration then he/she wouldn’t be registered as a voter.
 
 ## PROBLEM STATEMENT
 
-Voting information handled manually poses a number of challenges such as; during election time after voting, you can’t make any changes even if you voted for a wrong candidate that you never wanted. The use of paper work in handling some of these processes could lead to human error which cannot be corrected once doe it's over and it is also time consuming.
+Paper ballot voting system brings with it a number of problems such as the slow rate of counting and tabulation of casted vote, the process of counting being handled manually may lead to inaccurate result due to human error, poor presentation of the ballot papers, inconvenience for the voter who is required to queue and vote at the polling station, poor participation and turnout, fraud in polling station and during the transmission and tabulation of result, increase in spoilt ballot papers and increase in the long-term cost of production and distribution of ballot papers. 
 
 The said problems can be solved by creating and designing a digital voting system which will allow the voter to make any changes before submitting and it’s faster.
+
 
 ## OBJECTIVES
 
