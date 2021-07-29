@@ -13,10 +13,9 @@
 
 ## PROBLEM STATEMENT
 
-Paper ballot voting system brings with it a number of problems such as the slow rate of counting and tabulation of casted vote, the process of counting being handled manually may lead to inaccurate result due to human error, poor presentation of the ballot papers, inconvenience for the voter who is required to queue and vote at the polling station, poor participation and turnout, fraud in polling station and during the transmission and tabulation of result, increase in spoilt ballot papers and increase in the long-term cost of production and distribution of ballot papers. 
+Paper ballot voting system brings with it a number of problems such as the slow rate of counting and tabulation of casted vote, the process of counting being handled manually may lead to inaccurate result due to human error, poor presentation of the ballot papers, inconvenience for the voter who is required to queue and vote at the polling station, poor participation and turnout, fraud in polling station and during the transmission and tabulation of result, increase in spoilt ballot papers and increase in the long-term cost of production and distribution of ballot papers.
 
 The said problems can be solved by creating and designing a digital voting system which will allow the voter to make any changes before submitting and it’s faster.
-
 
 ## OBJECTIVES
 
@@ -57,19 +56,19 @@ Tee system will have modules, which are user friendly that will enhance user exp
    - Provides form for voters to contuct the admin or sent in their feedback about the system
    ![image](https://user-images.githubusercontent.com/72855022/127014862-0c47f8a8-9c57-47de-95b2-eac73ab4b2f4.png)
 
-   
-Database Design
-   Admins Table
-   
+## Database Design
+
+#### Admins Table
+
   | Field name   | Data Type          | Length |
   |--------------|--------------------|--------|
   | id           |bigint unsigned(PK) | 20     |
   |admin_username|tinytext            |256     |
   |admin_password|tinytext            |256     |
   |time_stamp    |datetime            |1       |
-   
-   Voters Table
-   
+
+#### Voters Table
+
   | Field name   | Data Type          | Length |
   |--------------|--------------------|--------|
   | id           |bigint unsigned(PK) | 20     |
@@ -78,8 +77,8 @@ Database Design
   |voter_password|tinytext            | 256    |
   |voter_gender  |tinytext            |256     |
   
-   Votes Table
-   
+#### Votes Table
+
   |Field name             | Data Type          | Length |
   |-----------------------|--------------------|--------|
   | id                    |bigint unsigned(PK) | 20     |
@@ -89,17 +88,13 @@ Database Design
   |voted_for_senetor      |tinytext            |256     |
   |voted_for_mp           |tinytext            |256     |
   
-   Feedback Table
-   
+#### Feedback Table
+
   |Field name  | Data Type          | Length |
   |------------|--------------------|--------|
   | id         |bigint unsigned(PK) | 20     |
   |name        |tinytext            |256     |
-  |	email      |tinytext            |256     |
+  |email      |tinytext            |256     |
   |phone       |int                 | 10     |
-  |	feedback   |tinytext            |256     |
+  |feedback   |tinytext            |256     |
   |suggestions |tinytext            |256     |
-  
-   
-   
-   
