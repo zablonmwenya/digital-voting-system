@@ -75,8 +75,8 @@
                 <th>Name</th>
                 <th>Email</th>
                 <th>Phone</th>
+                <th>Message</th>
                 <th>feedback</th>
-                <th>Suggestions</th>
                 </tr>";
     
                 while($row = mysqli_fetch_array($result))
@@ -85,8 +85,8 @@
                 echo "<td>" . $row['name'] . "</td>";
                 echo "<td>" . $row['email'] . "</td>";
                 echo "<td>" . $row['phone'] . "</td>";
-                echo "<td>" . $row['feedback'] . "</td>";
                 echo "<td>" . $row['suggestions'] . "</td>";
+                echo "<td>" . $row['feedback'] . "</td>";
                 echo "</tr>";
                 }
                 echo "</table>"; 
