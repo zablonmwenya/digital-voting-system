@@ -56,6 +56,15 @@ Tee system will have modules, which are user friendly that will enhance user exp
    - Provides form for voters to contuct the admin or sent in their feedback about the system
    ![image](https://user-images.githubusercontent.com/72855022/127014862-0c47f8a8-9c57-47de-95b2-eac73ab4b2f4.png)
 
+## User Manual
+To Run:
+1) Install XAMPP on your computer
+2) Clone the repository "digital-voting-system" and exact the folder digitalvoting
+3) create an SQL database "db_evoting.sql"
+4) import SQL file present in the databse folder of the project file 
+5) Place the project file in the C:\xampp\htdocs
+6) Navigate to the C:\xampp\htdocs for digitalvoting 
+
 ## Database Design
 
 #### Admins Table
